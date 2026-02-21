@@ -1,80 +1,13 @@
-<p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://github.com/yourusername/fontstore/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/fontstore/tests.yml?branch=main" alt="Build Status">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/badge/Laravel-11.x-red" alt="Laravel Version">
-  </a>
-  <a href="https://github.com/yourusername/fontstore/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/yourusername/fontstore" alt="License">
-  </a>
-</p>
-
-<h1 align="center">🅵 فۆنت‌ستۆر – پلاتفۆرمی بەڕێوەبردنی فۆنت و پۆست</h1>
-
-<p align="center">
-  <b>فۆنت‌ستۆر</b> پلاتفۆرمێکی تەواوە بۆ بەڕێوەبردنی فۆنت و پۆست، بە دوو بەشی سەرەکی: <b>باک‌ئێند</b> و <b>فرۆند‌ئێند</b>.  
-  ئەم پڕۆژەیە بە <b>Laravel 11</b> دروست کراوە و دوو داشبۆردی جیاوازی تێدایە:  
-  <b>داشبۆردی پۆست و فۆنت</b> بۆ بەڕێوەبەران، و  
-  <b>داشبۆردی ئەدمین</b> بۆ ڕێکخستنی ڕۆڵ و چاڵاکییەکانی بەکارهێنەران.
-</p>
-
----
-
-## ✨ تایبەتمەندییە سەرەکییەکان
-
-- **🔍 دیزاینی UI سێرچ (Search UI)** بۆ ئاسانکاری لە دۆزینەوەی فۆنت و پۆست.
-- **🖼 ئایکۆنەکانی Heroicons** بەکارهاتووە بۆ ڕوونتربوونەوەی ناوەرۆک.
-- **⚡ دوو داشبۆردی جیاواز** بەپێی ئاستی دەستڕاگەیشتن.
-- **📝 بەڕێوەبردنی فۆنت و پۆست** لەلایەن ئەندامانی تیم.
-- **👤 سیستەمی ڕۆڵ و دەستڕاگەیشتن** (بە Spatie Permission).
-- **📦 ڕەشکردنەوەی تەواو (Dark Mode)** بۆ ئاسوودەیی بینین.
-- **🧩 کۆدێکی پاک و خوێنەراوە** بەپێی ستانداردەکانی PSR‑12.
-
----
-
-## 🧩 پێکهاتەکانی پڕۆژە
-
-### ۱. 🗂 **باک‌ئێند (Backend)**
-- **Laravel 11** بە ستراکچەری ماژوڵاری.
-- **RESTful API** بۆ پەیوەندی لەگەڵ فرۆند‌ئێند.
-- **Middleware** بۆ ڕێگری لە دەستڕاگەیشتنی ڕێگەپێنەدراو.
-- **Database Migrations & Seeders** بۆ دابینکردنی داتای سەرەتایی.
-
-### ۲. 🎨 **فرۆند‌ئێند (Frontend)**
-- **Blade + Tailwind CSS** بۆ دیزاینی سادە و خێرا.
-- **Alpine.js** بۆ کارلێکەکانی بەکارهێنەر.
-- **UI سێرچ (Search UI)** بۆ گەڕانی پێشکەوتوو لە فۆنت و پۆستدا.
-- **ڕەشکردنەوە (Dark/Light Mode)** بە JavaScript.
-
----
-
-## 📊 پێکهاتەی داشبۆردەکان
-
-### 🖋 داشبۆردی پۆست و فۆنت (بۆ بەڕێوەبەران)
-- زیادکردن، دەستکاری و سڕینەوەی فۆنت.
-- بەڕێوەبردنی پۆستەکان (نووسین، بڵاوکردنەوە).
-- پێداچوونەوە و پەسەندکردنی پۆست لەلایەن تیم.
-
-### ⚙️ داشبۆردی ئەدمین (بۆ بەڕێوەبەری سیستەم)
-- ڕێکخستنی ڕۆڵ و دەستڕاگەیشتن (بە Spatie).
-- بینینی تەواوی چالاکییەکانی بەکارهێنەران.
-- بەڕێوەبردنی هەموو بەشداربووان و پۆستەکان.
-
----
-
-## 🚀 نصب و ڕێکخستن
+## <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+</svg>
+ ڕێکخستن
 
 ```bash
 # ۱. کڵۆنکردنی پرۆژە
-git clone https://github.com/yourusername/fontstore.git
-cd fontstore
+git clone https://github.com/nio-fa/fonts-library.git
+cd fonts-library-main
 
 # ۲. دامەزراندنی پاکێجەکان
 composer install
@@ -84,12 +17,7 @@ npm install && npm run build
 cp .env.example .env
 php artisan key:generate
 
-# ۴. دروستکردن و پڕکردنی داتابەیس
-php artisan migrate --seed
-
-# ۵. ڕێکخستنی ڕۆڵەکان
-php artisan db:seed --class=RolePermissionSeeder
-
-# ۶. خزمەتگوزاری ناوخۆیی
+‎# ۶. خزمەتگوزاری ناوخۆیی
 php artisan serve
 npm run dev
+```
