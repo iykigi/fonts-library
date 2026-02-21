@@ -199,5 +199,5 @@ This project is open-source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-Developed by **Nio-fa**  
-GitHub: https://github.com/nio-fa
+Developed by **NiYAZ**  
+GitHub: https://github.com/iykigi
