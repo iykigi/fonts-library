@@ -1,59 +1,95 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://github.com/yourusername/fontstore/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/fontstore/tests.yml?branch=main" alt="Build Status">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/badge/Laravel-11.x-red" alt="Laravel Version">
+  </a>
+  <a href="https://github.com/yourusername/fontstore/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/yourusername/fontstore" alt="License">
+  </a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h1 align="center">🅵 فۆنت‌ستۆر – پلاتفۆرمی بەڕێوەبردنی فۆنت و پۆست</h1>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <b>فۆنت‌ستۆر</b> پلاتفۆرمێکی تەواوە بۆ بەڕێوەبردنی فۆنت و پۆست، بە دوو بەشی سەرەکی: <b>باک‌ئێند</b> و <b>فرۆند‌ئێند</b>.  
+  ئەم پڕۆژەیە بە <b>Laravel 11</b> دروست کراوە و دوو داشبۆردی جیاوازی تێدایە:  
+  <b>داشبۆردی پۆست و فۆنت</b> بۆ بەڕێوەبەران، و  
+  <b>داشبۆردی ئەدمین</b> بۆ ڕێکخستنی ڕۆڵ و چاڵاکییەکانی بەکارهێنەران.
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ✨ تایبەتمەندییە سەرەکییەکان
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- **🔍 دیزاینی UI سێرچ (Search UI)** بۆ ئاسانکاری لە دۆزینەوەی فۆنت و پۆست.
+- **🖼 ئایکۆنەکانی Heroicons** بەکارهاتووە بۆ ڕوونتربوونەوەی ناوەرۆک.
+- **⚡ دوو داشبۆردی جیاواز** بەپێی ئاستی دەستڕاگەیشتن.
+- **📝 بەڕێوەبردنی فۆنت و پۆست** لەلایەن ئەندامانی تیم.
+- **👤 سیستەمی ڕۆڵ و دەستڕاگەیشتن** (بە Spatie Permission).
+- **📦 ڕەشکردنەوەی تەواو (Dark Mode)** بۆ ئاسوودەیی بینین.
+- **🧩 کۆدێکی پاک و خوێنەراوە** بەپێی ستانداردەکانی PSR‑12.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🧩 پێکهاتەکانی پڕۆژە
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### ۱. 🗂 **باک‌ئێند (Backend)**
+- **Laravel 11** بە ستراکچەری ماژوڵاری.
+- **RESTful API** بۆ پەیوەندی لەگەڵ فرۆند‌ئێند.
+- **Middleware** بۆ ڕێگری لە دەستڕاگەیشتنی ڕێگەپێنەدراو.
+- **Database Migrations & Seeders** بۆ دابینکردنی داتای سەرەتایی.
 
-### Premium Partners
+### ۲. 🎨 **فرۆند‌ئێند (Frontend)**
+- **Blade + Tailwind CSS** بۆ دیزاینی سادە و خێرا.
+- **Alpine.js** بۆ کارلێکەکانی بەکارهێنەر.
+- **UI سێرچ (Search UI)** بۆ گەڕانی پێشکەوتوو لە فۆنت و پۆستدا.
+- **ڕەشکردنەوە (Dark/Light Mode)** بە JavaScript.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 📊 پێکهاتەی داشبۆردەکان
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🖋 داشبۆردی پۆست و فۆنت (بۆ بەڕێوەبەران)
+- زیادکردن، دەستکاری و سڕینەوەی فۆنت.
+- بەڕێوەبردنی پۆستەکان (نووسین، بڵاوکردنەوە).
+- پێداچوونەوە و پەسەندکردنی پۆست لەلایەن تیم.
 
-## Code of Conduct
+### ⚙️ داشبۆردی ئەدمین (بۆ بەڕێوەبەری سیستەم)
+- ڕێکخستنی ڕۆڵ و دەستڕاگەیشتن (بە Spatie).
+- بینینی تەواوی چالاکییەکانی بەکارهێنەران.
+- بەڕێوەبردنی هەموو بەشداربووان و پۆستەکان.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 🚀 نصب و ڕێکخستن
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```bash
+# ۱. کڵۆنکردنی پرۆژە
+git clone https://github.com/yourusername/fontstore.git
+cd fontstore
 
-## License
+# ۲. دامەزراندنی پاکێجەکان
+composer install
+npm install && npm run build
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# ۳. ڕێکخستنی فایلی ژینگە
+cp .env.example .env
+php artisan key:generate
+
+# ۴. دروستکردن و پڕکردنی داتابەیس
+php artisan migrate --seed
+
+# ۵. ڕێکخستنی ڕۆڵەکان
+php artisan db:seed --class=RolePermissionSeeder
+
+# ۶. خزمەتگوزاری ناوخۆیی
+php artisan serve
+npm run dev
