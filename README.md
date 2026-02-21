@@ -1,23 +1,66 @@
+# 🎨 Fonts Library
 
-## <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
-</svg>
- ڕێکخستن
+> Modern Laravel Font Management System  
+> Built with performance, scalability, and clean architecture in mind.
+
+---
+
+## 📌 Overview
+
+Fonts Library پڕۆژەیەکی مۆدێرنە کە بە Laravel دروستکراوە بۆ بەڕێوەبردنی فۆنتەکان بە شێوەیەکی سیستەماتیک و خێرا.  
+ئامانجی پڕۆژەکە: دروستکردنی بنکەیەکی ڕێکخراو بۆ فۆنتەکان کە بتوانرێت بە ئاسانی بەکاربهێنرێت لە پرۆژەکانی وێب.
+
+---
+
+## ✨ Features
+
+- 📂 Font Management System
+- ⚡ High Performance with Vite
+- 🔐 Secure Environment Configuration
+- 🛠 Clean & Developer-Friendly Structure
+- 📦 Scalable Architecture
+- 🗄 Database Integration Ready
+
+---
+
+## 🧱 Tech Stack
+
+- PHP 8+
+- Laravel Framework
+- MySQL
+- Node.js
+- NPM
+- Vite
+
+---
+
+# 🚀 Installation Guide
+
+## 1️⃣ Clone the Repository
 
 ```bash
-# ۱. کڵۆنکردنی پرۆژە
 git clone https://github.com/nio-fa/fonts-library.git
 cd fonts-library-main
 
-# ۲. دامەزراندنی پاکێجەکان
 composer install
-npm install && npm run build
 
-# ۳. ڕێکخستنی فایلی ژینگە
+npm install
+npm run build
+
 cp .env.example .env
 php artisan key:generate
 
-‎# ۶. خزمەتگوزاری ناوخۆیی
+ئەمانە ڕێکبخە
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+
+php artisan migrate
+
 php artisan serve
 npm run dev
-```
+
+http://127.0.0.1:8000
+
+npm run build
+
